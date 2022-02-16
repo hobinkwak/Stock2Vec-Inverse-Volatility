@@ -1,6 +1,27 @@
 ## Inverse Volatility Allocation by Sto2vec Clustering
 
-### 
+### Strategy
+0. Stock2vec Clustering
+  - make dailty log-return series **Embedding Vectors** by Word2vec-Skipgram
+  - pass the embedding vectors to K-Means Clustering Algorithm
+    - num_clusters : 5
+1. Stock2Vec Clustering + Double Inverse Volatility
+  - inverse volatility between assets in one cluster
+  - inverse volatility between clusters
+2. Stock2Vec Clustering + inverse volatility + min volatility
+  - inverse volatility between assets in one cluster
+  - minimize portfolio volatility using clusters
+3. Risk parity
+4. Minimum Volatility
+5. Maximum Sharpe Ratio
+6. Equal Weight
+7. Inverse Volatility
+
+
+### Implemenation
+```
+python main.py
+```
 
 ### Data
 - ETF (2008.01 ~ 2022.02)
@@ -19,10 +40,8 @@
   - XLV : Health Care Select Sector SPDR Fund
   - XLY : 미 경기소비재 ETF
 
-### Implemenation
-```
-python main.py
-```
+### Result
+![결과](./image/busan.jpg)
 
 ## Requirements
 ```
