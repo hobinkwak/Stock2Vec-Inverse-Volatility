@@ -1,4 +1,4 @@
-## Inverse Volatility Allocation by Sto2vec Clustering
+## Inverse Volatility with Stock2vec Clustering
 
 ### Strategy
 0. Stock2vec Clustering
