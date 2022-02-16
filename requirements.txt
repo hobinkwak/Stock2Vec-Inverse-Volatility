@@ -1,0 +1,8 @@
+finance-datareader==0.9.31
+gensim==4.1.2
+matplotlib
+numpy==1.19.3
+pandas==1.3.4
+scikit-learn==1.0.2
+scipy==1.8.0
+tqdm==4.62.3
